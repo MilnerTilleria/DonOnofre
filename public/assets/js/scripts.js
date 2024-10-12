@@ -4,7 +4,7 @@ let total = 0;
 
 // Asegúrate de que la URL del WebSocket sea correcta para tu entorno
 const protocol = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
-const socketUrl = `${protocol}3ad2-2803-7d80-a401-7fee-948f-7e86-765a-b319.ngrok-free.app`;
+const socketUrl = `${protocol}dononofre2-hqehwh3x.b4a.run`;
 const socket = new WebSocket(socketUrl);
 
 // Escuchar los mensajes del WebSocket
